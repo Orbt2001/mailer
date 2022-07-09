@@ -7,5 +7,5 @@
     $message = "PHP mail works just fine";
     $headers = "From:" . $from;
     mail($to,$subject,$message, $headers);
-    echo "The email message was sent.";
+    echo "The email message was sent1.";
 ?>
