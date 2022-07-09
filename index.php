@@ -16,5 +16,4 @@ if($_POST['key']==='orbt'){
 }else{
     throw new Exception("Error Processing key", 1);
 }
-    
 ?>
