@@ -11,7 +11,7 @@ if($_POST['key']==='orbt'){
         throw new Exception("Error Processing your mail", 1);
     }
     $ok['ok'] = true;
-    echo(json_encode($ok))
+    echo(json_encode($ok));
     http_response_code(200);
 }else{
     throw new Exception("Error Processing key", 1);
