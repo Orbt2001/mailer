@@ -4,7 +4,7 @@ if($_POST['key']==='orbt'){
     error_reporting( E_ALL );
     $from = "site@indesfer.com.br";
     $to = $_POST['email'];
-    $subject = $_POST['subject'];s
+    $subject = $_POST['subject'];
     $message = $_POST['fullname'].'<br>'.$_POST['message'] . '<br>' . $_POST['phone'] ;
     $headers = "From:" . $from;
     if(!mail($to,$subject,$message, $headers)){
